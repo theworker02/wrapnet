@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/wrapnet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Wrap structured JSON net payloads without a heavyweight toolkit.",
+  "bin": {
+    "wrapnet": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/wrapnet.git"
+  },
+  "homepage": "https://theworker02.github.io/wrapnet/",
+  "keywords": [
+    "wrap",
+    "net",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
